@@ -1,0 +1,18 @@
+
+Microsoft DiskPart version 10.0.22000.653
+
+Copyright (C) Microsoft Corporation.
+On computer: DESKTOP-5C9GPF5
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     E   CCCOMA_X64F  UDF    DVD-ROM     5299 MB  Healthy            
+  Volume 1     F   CCCOMA_X64F  UDF    DVD-ROM     5299 MB  Healthy            
+  Volume 2     C                NTFS   Partition    456 GB  Healthy    Boot    
+  Volume 3         ESP          FAT32  Partition    150 MB  Healthy    System  
+  Volume 4                      NTFS   Partition    833 MB  Healthy    Hidden  
+  Volume 5         WINRETOOLS   NTFS   Partition    990 MB  Healthy    Hidden  
+  Volume 6         Image        NTFS   Partition     17 GB  Healthy    Hidden  
+  Volume 7         DELLSUPPORT  NTFS   Partition   1508 MB  Healthy    Hidden  
+  Volume 8     D                NTFS   Partition    238 GB  Healthy            
+  Volume 9     G                NTFS   Removable     57 GB  Healthy            

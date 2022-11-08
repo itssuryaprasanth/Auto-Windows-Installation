@@ -1,0 +1,5 @@
+select volume 9 
+clean 
+create partition primary 
+format quick fs=ntfs 
+assign letter= G
