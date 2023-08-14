@@ -47,10 +47,6 @@ For detailed instructions on setting up and using the Windows OS Automated Insta
 
 Contributions are welcome! If you have suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request.
 
-## License
-
-This tool is open-source and is available under the [MIT License](LICENSE).
-
 ---
 
 By automating the Windows OS installation process, the Windows OS Automated Installation Tool simplifies and enhances the user experience. Enjoy a swift and efficient installation journey with minimal effort!
