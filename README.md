@@ -35,7 +35,13 @@ The **Windows OS Automated Installation Tool** is a user-friendly utility design
 
 ## Getting Started
 
-For detailed instructions on setting up and using the Windows OS Automated Installation Tool, please refer to the  
+For detailed instructions on setting up and using the Windows OS Automated Installation Tool
+Target Machine IP ( Where you store all your ISO's, unattend.xml)
+Install latest python (Preferable 3.8.10)
+utilities\network_connection_check.py --> Will help to check your target machine is reachable or not.
+utilities\local_connection_to_server.py --> Will create a ssh connection between local machine and target machine and brings out ISO file and stash it in local.
+making_usb_bootable library will help to make create your USB as bootable and also set your USB as first priority for BOOT ORDER.
+Replace Tester name with your name in autounattend.xml. For more information https://www.windowsafg.com/win10x86_x64_uefi.html
 
 ## Contributions
 
