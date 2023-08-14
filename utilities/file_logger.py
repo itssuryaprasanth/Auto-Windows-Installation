@@ -1,7 +1,7 @@
 import logging
 from datetime import datetime
 
-_log_file_location = 'Logs/'
+log_file_location = 'C:/Windows/Temp/'
 
 
 def get_current_date_time():
@@ -13,7 +13,7 @@ def get_current_date_time():
 loggers = {}
 
 
-def File_Logger(name='logName'):
+def file_logger(name='logName'):
     global loggers
 
     if loggers.get(name):
@@ -22,7 +22,7 @@ def File_Logger(name='logName'):
         logger = logging.getLogger(name)
         logger.setLevel(logging.DEBUG)
         _current_time = get_current_date_time()
-        handler = logging.FileHandler(f"{_log_file_location}" + "Remote_Windows" + f"_{_current_time}" + ".log")
+        handler = logging.FileHandler(f"{log_file_location}" + "Remote_Windows" + f"_{_current_time}" + ".log")
         formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
         handler.setFormatter(formatter)
         logger.addHandler(handler)
